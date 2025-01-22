@@ -104,6 +104,9 @@ public class workfirst {
         }
 
         // 任务8：引用类型与字符串相等
+        //在 Java 中，引用类型是指那些通过引用来操作的对象类型，而不是直接存储实际的值。与基本类型（如 int、char 等）不同，引用类型的变量存储的是对象的内存地址，而不是对象本身。常见的引用类型包括：
+        //类（如 String、ArrayList），接口，数组
+        //大多数引用类型的对象需要通过 new 关键字创建（除了字符串字面量等特殊情况）。
         String str1 = "Hello";
         String str2 = new String("Hello");
         System.out.println("任务8结果：");
