@@ -109,5 +109,7 @@ public class workfirst {
         System.out.println("任务8结果：");
         System.out.println("str1.equals(str2): " + str1.equals(str2)); // true，比较内容
         System.out.println("str1 == str2: " + (str1 == str2)); // false，比较引用
+        //使用 ==：== 比较的是两个字符串对象的内存地址，即它们是否是同一个对象，使用 equals() 方法：equals() 方法比较的是两个字符串的内容是否相同。
+        //Java 中的字符串常量池会复用相同的字符串字面量，因此 == 在某些情况下可能返回 true，但为了安全起见，判断字符串内容是否相等时，应始终使用 equals() 方法。
     }
 }
